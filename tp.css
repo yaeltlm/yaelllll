@@ -1,0 +1,51 @@
+/* Style général de la page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #9AA8ED, #6C63FF, #B8C6FF);
+    min-height: 100vh;
+}
+
+/* Titres */
+h1 {
+    margin-top: 30px;
+    color: #222;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Liste */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Espacement entre les boutons */
+li {
+    margin: 15px;
+}
+
+/* Transformation des liens en boutons */
+a {
+    text-decoration: none;
+    background: #ffffff;
+    color: #444;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Animation au survol */
+a:hover {
+    background: #6C63FF;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+

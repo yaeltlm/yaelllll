@@ -1,0 +1,35 @@
+body{ 
+	background: hotpink;
+
+ }
+
+p
+{
+	color: white;
+	background-color: grey;
+	size: 2em;
+}
+
+h1
+{
+	color: white;
+}
+
+h2
+{
+	color: purple;
+}
+
+.special
+{
+	background-color: black;
+}
+
+div
+{
+	background-color: lightyellow;
+	border: 4px darkred solid;
+	border-radius: 35px;
+	width: 75%;
+	height: 150px;
+}
